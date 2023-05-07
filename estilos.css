@@ -1,0 +1,137 @@
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 76% arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    margin: 0 10px 10px
+}
+
+a {
+    display: block;
+    color: chocolate;
+    padding: 10px;
+}
+
+body {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div#encabezado {
+    background: #D1913C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div#navegacion {
+    background: #D1913C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div#encabezado h1 {
+    height: 100px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 550px;
+    color: rgb(3, 3, 3);
+}
+
+div#encabezado {
+    margin-bottom: 20px;
+    ;
+    margin-top: 0px;
+    margin-left: -250px;
+    margin-right: -250px;
+    margin-block-end: 50px;
+}
+
+div#encabezado img {
+    padding-left: 150px;
+    display: block;
+    margin: center;
+}
+
+div#contenedor {
+    text-align: left;
+}
+
+div#contenido p {
+    line-height: 1.4;
+}
+
+div#navegacion {}
+
+div#derecha {
+    background: FF8539;
+}
+
+div#piepagina {
+    background: #333;
+    color: #FFF;
+}
+
+div#piepagina {
+    margin: 0;
+    padding: 25px 10px;
+}
+
+div#contenedor {
+    width: 999px;
+    margin: 0 auto
+}
+
+div#centro {
+    float: left;
+    width: 100%;
+}
+
+div#contenido {
+    margin: 0 150px
+}
+
+div#derecha {
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+div#navegacion {
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-left: -1100px;
+}
+
+div#navegacion ul {
+    padding-left: 40px;
+    padding-top: 35px;
+}
+
+div#piepagina {
+    clear: left;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
